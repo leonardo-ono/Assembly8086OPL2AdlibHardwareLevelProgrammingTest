@@ -18,7 +18,7 @@ section .text
 
 			mov cl, 0 ; channel 0
 			call setup_piano_instrument
-			mov cl, 1 ; channel 0
+			mov cl, 1 ; channel 1
 			call setup_piano_instrument
 
 			call start_fast_clock
